@@ -1,6 +1,7 @@
 # Home Assistant Ecowitt Proxy add-on repository
 
 EDIT:  This forked version is to enable a Ambient Weather WS-1965 translate GET requests over to POST requests for Home Assistant.
+This will just be a hacked up mod for my means.  No support should be expected.
 
 This repository contains a Home Assitant add-on for an HTTP proxy to enable using the Ecowitt data feed when Home Assistant is exposed over HTTPS.
 
@@ -15,7 +16,7 @@ If the above redirect button does not work, or you wish to install manually, her
 1. Browse to [Settings > Add-ons](https://my.home-assistant.io/redirect/supervisor) in Home Assistant
 1. Click the Add-On Store button in the lower right
 1. Click the vertical `...` menu in the upper-right corner and select "Repositories"
-1. Enter the URL for this repository: `https://github.com/ChrisRomp/addon-ecowitt-proxy`
+1. Enter the URL for this repository: `https://github.com/ninthbit/addon-ecowitt-proxy`
 1. Click "Add" after the text field
 
 You should now see a section in the Add-On Store called "Ecowitt Proxy add-on repository" which contains this Add-on, from which you can install it.
