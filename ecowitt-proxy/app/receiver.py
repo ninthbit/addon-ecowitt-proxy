@@ -39,11 +39,6 @@ def version():
 # Show a friendly error if someone tries to access the webhook URL directly
 
 
-@app.route('/log/ha', methods=['GET'])
-def logHomeAssistantGet():
-    return "Requires POST operation\n"
-
-
 @app.route('/log/ha', methods=['POST'])
 def logHomeAssistant():
     # Get form data
